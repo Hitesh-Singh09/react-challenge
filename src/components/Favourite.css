@@ -1,0 +1,36 @@
+.favourite{
+    margin: 0px 50px;
+}
+.headers{
+    display: flex;
+    margin-top: 25px;
+}
+
+.fav-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px 0 100px 0;
+}
+.fav-list img{
+    width: 128px;
+    height: 128px;
+
+}
+
+.heart{
+    position: relative;
+    left:-30px;
+color: white;
+bottom: 10px;
+cursor: pointer;
+}
+
+
+@media (max-width: 600px){
+    .fav-list img{
+        width: 100px;
+        height: 100px;
+    
+    }
+}

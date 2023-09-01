@@ -1,0 +1,102 @@
+.container{
+    width: 100%;
+    height: auto;
+    background: rgb(231, 228, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feed-page{
+    
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.feed-page h1{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 57px 0 0 61px;
+}
+.feed-page input{
+    margin: 50px 0 0 60px;
+width: 530px;
+height: 36px;
+padding: 6px;
+background:#F7F7F7;
+border: none;
+font-size: 16px;
+color: #44484C;
+font-weight: 400;
+
+}
+button{
+   width: 105px;
+   height: 36px;
+padding: 6px;
+background:#0794E3;
+color: white;
+font-size: 14px;
+font-weight: 700;
+border-radius: 5px;
+border: none;  
+}
+button i{
+    margin: 0 4px;
+}
+
+span{
+    position: relative;
+    left:150px;
+color: white;
+bottom: 10px;
+cursor: pointer;
+}
+
+.btn:hover{
+    transition: 0.3s ease;
+background: #056eaa;
+}
+.list{
+    margin: 40px 60px;
+    display: flex;
+    
+    gap:36px;
+    flex-wrap: wrap;
+}
+
+.list img{
+    width: 160px;
+    height:160px ;
+}
+
+@media (max-width: 600px){
+.feed-page input{
+width: 200px;
+}
+.list{
+    margin: 40px 10px;
+    align-items: center;
+    justify-content: center;
+}
+.list img{
+    width: 120px;
+    height:120px ;
+}
+
+span{
+    position: relative;
+    left:100px;
+color: white;
+bottom: 10px;
+cursor: pointer;
+}
+button{
+    width: 80px;
+    height: 36px;
+font-size: 10px;
+
+}
+}
